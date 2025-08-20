@@ -24,4 +24,4 @@ Text Master is a simple and interactive text manipulation tool that transforms u
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/<your-username>/text-master.git
+   git clone https://github.com/faithadeola/text-master.git
