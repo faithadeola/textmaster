@@ -13,7 +13,12 @@ Text Master is a simple and interactive text manipulation tool that transforms u
 
 ##  Screenshot
 
-![Text Master Screenshot][./text-master.png](https://github.com/faithadeola/textmaster/blob/main/textmaster1.png)
+![Text Master Screenshot](https://github.com/faithadeola/textmaster/blob/main/textmaster1.png)
+![Text Master Screenshot](https://github.com/faithadeola/textmaster/blob/main/textmaster2.png)
+![Text Master Screenshot](https://github.com/faithadeola/textmaster/blob/main/textmaster3.png)
+![Text Master Screenshot](https://github.com/faithadeola/textmaster/blob/main/textmaster4.png)
+
+
 
 ## Tech Stack
 
