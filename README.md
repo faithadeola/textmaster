@@ -1,21 +1,21 @@
-# 📝 Text Master
+#  Text Master
 
 Text Master is a simple and interactive text manipulation tool that transforms user input in real time. As you type, the app automatically updates corresponding sections with different transformations.
 
-## 🚀 Features
+##  Features
 
-- 🔠 **Uppercase Converter** – Transforms all text to uppercase  
-- 🔡 **Lowercase Converter** – Transforms all text to lowercase  
-- 📝 **Word Counter** – Counts the total number of words  
-- 🔢 **Character Counter** – Displays the number of characters  
-- 🔍 **Number Extractor** – Finds and displays numbers from the text  
-- ⚡ **Real-time Processing** – Instant updates while typing  
+-  **Uppercase Converter** – Transforms all text to uppercase  
+-  **Lowercase Converter** – Transforms all text to lowercase  
+-  **Word Counter** – Counts the total number of words  
+- **Character Counter** – Displays the number of characters  
+-  **Number Extractor** – Finds and displays numbers from the text  
+- **Real-time Processing** – Instant updates while typing  
 
-## 🖼️ Screenshot
+##  Screenshot
 
-![Text Master Screenshot](./text-master.png)
+![Text Master Screenshot][./text-master.png](https://github.com/faithadeola/textmaster/blob/main/textmaster1.png)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **HTML** – Structure of the app  
 - **CSS** – Styling for a clean layout  
