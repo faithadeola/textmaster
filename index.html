@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextMaster</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-head">
+                <h4>TextMaster</h4>
+                <button type="reset" id="clear">Clear All</button>
+            </div>
+            <div class="card-body">
+                <div class="input-box">
+                <textarea type="text" id="textbox" placeholder="Enter your text here ..."></textarea>
+                <p id="charCount"></p>
+                </div>
+                <div class="tools">
+                    <h3>Text Processing Tools</h3>
+                </div>
+                <section class="section">
+                    <div class="conversion-section">
+                        <h4>Text Case Conversion</h4>
+                        <p>Convert text to different cases</p>
+                        <h5>UPPERCASE</h5>
+                    </div>
+                    <div class="conversion-box">
+                        <textarea id="upperCase" readonly></textarea>
+                    </div>
+                </section>
+
+                 <section>
+                    <div class="conversion-section">
+                        <h4>Text Case Conversion</h4>
+                        <p>Convert text to different cases</p>
+                        <h5>lowercase</h5>
+                    </div>
+                    <div class="conversion-box">
+                        <textarea id="lowerCase" readonly></textarea>
+                    </div>
+                </section>
+
+                 <section>
+                    <div class="conversion-section">
+                        <h4>Text Case Conversion</h4>
+                        <p>Convert text to different cases</p>
+                        <h5>Title Case</h5>
+                    </div>
+                    <div class="conversion-box">
+                        <textarea id="titleCase" readonly></textarea>
+                    </div>
+                </section>
+
+                 <section>
+                    <div class="conversion-section">
+                        <h4>Text Case Conversion</h4>
+                        <p>Convert text to different cases</p>
+                        <h5>camelCase</h5>
+                    </div>
+                    <div class="conversion-box">
+                        <textarea id="camelCase" readonly></textarea>
+                    </div>
+                </section>
+
+                 <section>
+                    <div class="conversion-section">
+                        <h4>Text Case Conversion</h4>
+                        <p>Convert text to different cases</p>
+                        <h5>snake_case</h5>
+                    </div>
+                    <div class="conversion-box">
+                        <textarea id="snakeCase" readonly></textarea>
+                    </div>
+                </section>
+
+                 <section>
+                    <div class="conversion-section">
+                        <h4>Text Statistics</h4>
+                        <p>Analyze text metrics</p>
+                        <h5>Character Count</h5>
+                    </div>
+                    <div class="conversion-box">
+                        <textarea id="characterCount" readonly></textarea>
+                    </div>
+                </section>
+
+                 <section>
+                    <div class="conversion-section">
+                        <h4>Text Statistics</h4>
+                        <p>Analyze text metrics</p>
+                        <h5>Word Count</h5>
+                    </div>
+                    <div class="conversion-box">
+                        <textarea id="wordCount" readonly></textarea>
+                    </div>
+                </section>
+
+                 <section>
+                    <div class="conversion-section">
+                        <h4>Text Statistics</h4>
+                        <p>Analyze text metrics</p>
+                        <h5>Sentences</h5>
+                    </div>
+                    <div class="conversion-box">
+                        <textarea id="sentence" readonly></textarea>
+                    </div>
+                </section>
+
+                 <section>
+                    <div class="conversion-section">
+                        <h4>Text Statistics</h4>
+                        <p>Analyze text metrics</p>
+                        <h5>Reading Time</h5>
+                    </div>
+                    <div class="conversion-box">
+                        <textarea id="readingTime" readonly></textarea>
+                    </div>
+                </section>
+
+                 <section>
+                    <div class="conversion-section">
+                        <h4>Text Tools</h4>
+                        <p>Useful text manipulation tools</p>
+                        <h5>Remove Extra Spaces</h5>
+                    </div>
+                    <div class="conversion-box">
+                        <textarea id="removeSpaces" readonly></textarea>
+                    </div>
+                </section>
+
+                 <section>
+                    <div class="conversion-section">
+                        <h4>Text Tools</h4>
+                        <p>Useful text manipulation tools</p>
+                        <h5>Reverse Text</h5>
+                    </div>
+                    <div class="conversion-box">
+                        <textarea id="reverseText" readonly></textarea>
+                    </div>
+                </section>
+
+                 <section>
+                    <div class="conversion-section">
+                        <h4>Text Tools</h4>
+                        <p>Useful text manipulation tools</p>
+                        <h5>Extract Numbers</h5>
+                    </div>
+                    <div class="conversion-box">
+                        <textarea id="extractNumber" readonly></textarea>
+                    </div>
+                </section>
+
+                 <section>
+                    <div class="conversion-section">
+                        <h4>Text Tools</h4>
+                        <p>Useful text manipulation tools</p>
+                        <h5>Remove Punctuations</h5>
+                    </div>
+                    <div class="conversion-box">
+                        <textarea id="removePunctuations" readonly></textarea>
+                    </div>
+                </section>
+
+                 <section>
+                    <div class="conversion-section">
+                        <h4>Advanced Processing</h4>
+                        <p> Advanced text manipulation tools</p>
+                        <h5>Find and Replace</h5>
+                        <button id="find">Find</button>
+                         <button id="replace">Replace</button >
+                    </div>
+                    <div class="conversion-box">
+                        <input id="findBox">
+                         <input id="replaceBox">
+                        <div id="findAndReplace" class="preview-box"></div>
+                    </div>
+                </section>
+
+                  <section>
+                    <div class="conversion-section">
+                        <h4>Advanced Processing</h4>
+                        <p>Advanced text manipulation tools</p>
+                        <h5>Base 64 Encode</h5>
+                    </div>
+                    <div class="conversion-boxes">
+                         <textarea id="encode"></textarea>
+                         <!-- <button id="copy">copy <span>  <img class="image" src="image.png"></span></button>
+                        -->
+            
+                    </div>
+                </section>
+
+                <section>
+                    <div class="conversion-section">
+                        <h4>Advanced Processing</h4>
+                        <p>Advanced text manipulation tools</p>
+                        <h5>Base 64 Decode</h5>
+                    </div>
+                    <div class="conversion-box">
+                         <textarea id="decode"></textarea>
+                          <textarea id="decoder"></textarea>
+                       
+                    </div>
+                </section>
+
+                <section>
+                    <div class="conversion-section">
+                        <h4>Advanced Processing</h4>
+                        <p>Advanced text manipulation tools</p>
+                        <h5>Compare</h5>
+                    </div>
+                    <div class="conversion-box">
+                         <textarea id="compareBox"></textarea>
+                        <textarea id="compare" readonly></textarea>
+                        <div id="display"></div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
