@@ -25,7 +25,7 @@ Text Master is a simple and interactive text manipulation tool that transforms u
 - **HTML** – Structure of the app  
 - **CSS** – Styling for a clean layout  
 - **JavaScript** – Real-time DOM manipulation & text transformations  
-## 💡 How to Run
+## How to Run
 
 1. Clone this repository:  
    ```bash
